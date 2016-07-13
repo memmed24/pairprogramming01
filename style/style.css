@@ -1,0 +1,274 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	background:rgb(6,29,61) url('../image/bg.jpg');
+	
+}
+
+.bg1 {
+	background: rgb(8,50,102);
+}
+ 
+.color1 {
+	color: rgb(86,200,248);
+}
+
+.header{
+	height: 165px;
+	width: 100%;
+	display: inline-block;
+}
+.sitename{
+	background-color: rgb(20,145,193);
+	width: 296px;
+	height: 165px;
+	text-align: center;
+	margin-left: 200px;
+}
+.sitep{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 50px;
+	line-height: 3
+}
+.header li{
+    margin-left: -4px;
+	display: inline-block;
+	padding: 165px 22px 25px 22px;
+    border-right: 1px solid darkgray
+}
+a{
+	text-decoration: none;
+    color: rgb(86,200,248);
+    font-family: arial;
+}
+.sitename, .header ul{
+	display: inline-block;
+}
+.header ul{
+    position: absolute;
+    margin-left: -30px;
+    margin-top: -43px;
+    
+}
+.phome{
+    color: rgb(20,145,175)
+}
+
+/*MAIN*/
+.main {
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 960px;
+	height: 1635px;
+
+}
+
+.left {
+	height: 100%;
+	width: 300px;
+	background: lightblue;
+	float: left;
+    background: rgb(8,49,101);
+}
+
+.right {
+	height: 100%;
+	width: 660px;
+	margin-left: -4px;
+	background: rgb(6,44,91);
+}
+
+.left, .right {
+	display: inline-block;
+}
+
+.siteSearch {
+	width: 300px;
+	height: 120px;
+	background: rgb(14, 81, 149);
+}
+
+.siteSearch p {
+	float: left;
+	width: 200px;
+	font-size: 20px;
+	padding-left: 20px;
+	margin-top: 15px;
+	color: white;
+}
+
+.siteSearch input {
+	float: left;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: -10px;
+	width: 215px;
+	height: 30px;
+	background: rgb(7, 54, 107);
+	border: 0px;
+}
+
+.siteSearch a {
+	float: left;
+	margin-top: -10px;
+}
+
+.news {
+	padding-bottom: 1px;
+}
+
+.news p {
+	color: white;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 25px;
+}
+
+.news li {
+	list-style-type: none;
+	line-height: 35px;
+	border-bottom: 1px solid rgb(12,70,128);
+	color: rgb(16, 133, 167);
+	width: 90%;
+	font-family: Arial;
+	margin-left: -20px;
+}
+.staff{
+    padding: 0px;
+    margin: 0px;
+}
+.staff >p{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.staffImg{
+    width: 77px;
+    height: 74px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.imgBg1{
+    margin-top: 4px;
+    margin-left: 3px;
+}
+.staffName{
+    width: 206px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: -140px;
+    padding-bottom: 20px;
+}
+.borderp{
+    border-bottom: 1px solid rgb(12,70,128);
+    border-top: 1px solid rgb(12,70,128);
+}
+.people{
+    padding-top: 20px;
+    height: 100px;
+}
+.staffName p{
+    color: rgb(16, 133, 167);
+    font-size:20px;
+}
+.staffName input{
+    background-color: rgb(20,145,193);
+    border: 0px;
+    color: white;
+    width: 60px;
+    height: 26px;
+}
+.rightinfo{
+    margin-left: 30px;
+}
+.rightinfo h1{
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.rightinfo h2{
+    color: white;
+    margin-top: 0px;
+}
+.rightinfo p{
+    color: rgb(20,145,193);
+    font-size: 16px;
+}
+.btn1{
+    height: 35px;
+    width: 80px;
+    border: 0px;
+    background-color:  rgb(20,145,193);
+    color: white;
+    font-size: 14px;
+}
+
+.man {
+	width: 275px;
+	height: 510px;
+	margin-left: 40px;
+	margin-top: 30px;
+	display: inline-block;
+	background: rgb(8, 50, 102);
+}
+
+.manBg {
+	margin-left:  23px;
+	margin-top: 30px;
+}
+
+.manBg h3 {
+	color: white;
+}
+
+.manBg p {
+	color: rgb(20,145,193);
+    font-size: 14px;
+}
+
+.btn2 {
+	margin-top: 20px;
+}
+
+.rightfooter {
+	position: relative;
+	top: 20px;
+}
+
+.rightFooterContainer {
+	position: relative;
+	left: 5%;
+}
+
+.rightFooterContainer h3, .rightFooterContainer h4 {
+	width: 80%;
+	color: white;
+}
+
+.RFImg, .RFText {
+	display: inline-block;
+}
+
+.RFText {
+	width: 350px;
+
+}
+
+.RFImg {
+	position: relative;
+	top: -10px;
+}
+
+.RFText div {
+	width: 80%;
+	position: relative;
+	left: 10%;
+	color: rgb(20,145,193);
+}
+
+.RFText input {
+	margin-top: 20px;
+}
